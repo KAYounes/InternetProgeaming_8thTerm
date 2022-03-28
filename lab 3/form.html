@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Form Page
+    </title>
+</head>
+<body>
+    <div>
+        <h1>
+            HTML Form
+        </h1>
+    </div>
+
+    <div>
+        <form action="">
+            <div>
+                <fieldset>
+                    <legend>
+                        Your Details:
+                    </legend>
+                
+                    <br>
+                
+                    <div>
+                        <label for="name">Name :</label>
+                        <input type="text" name="name" id="name" placeholder="First Last">
+                    </div>
+                
+                    <div>
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="name" placeholder="example@email.com">
+                    </div>
+                </fieldset>
+            </div>
+
+            <br>
+
+            <div>
+                <fieldset>
+                    <legend>
+                        Your Review:
+                    </legend>
+
+                    <br>
+
+                    <div>
+                        <label for="source">How did you hear about us?</label>
+
+                        <select name="source" required>
+                            <option value="">Select</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="Friend">Friend</option>
+                        </select>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="visit">Would you visit us again?</label>
+
+                        <br>
+
+                        <input type="radio" name="visit">
+                        <label for="visit">Yes</label>
+
+                        <input type="radio" name="visit">
+                        <label for="visit">No</label>
+
+                        <input type="radio" name="visit">
+                        <label for="visit">Maybe</label>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="comments">Comments:</label>
+
+                        <br>
+
+                        <textarea name="comments" placeholder="I loved the design"></textarea>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <input type="checkbox" name="updates">
+                        <label for="updates">Sign me up for email updates</label>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="submit"></label>
+                        <input type="submit" name="submit" value="Submit Review">
+                    </div>
+
+                </fieldset>
+            </div>
+        </form>
+    </div>
+
+    <br>
+
+    <div>
+        <a href="table.html"><button>See Table</button></a>
+    </div>
+</body>
+</html>
